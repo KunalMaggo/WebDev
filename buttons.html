@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>More inputs</h1>
+    <form action="/birds">
+        <input type="checkbox" name="agree_to" id="agree">
+        <label for="agree">I agree</label>
+        <p>
+            <label for="xs">Extra Small</label>
+            <input type="radio" name="size" id="xs" value="extra small">
+            <label for="m"> Medium</label>
+            <input type="radio" name="size" id="m" value="medium">
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="l" value="large">
+        </p>
+        <p>
+            <label for="cuisine">Please Select a cuisine</label>
+            <select name="cuisine" id="cuisine" >
+                <option value="italian">Italian</option>
+                <option value="mughlai">Mughlai</option>
+                <option value="chinese">Chinese</option>
+                <option value="french">French</option>
+            </select>
+        </p>
+        <div>
+            <input type="range" id="cheese" min="0" max="15" name="cheese_level">
+            <label for="cheese">Select cheese</label>
+        </div>
+        <div>
+            <label for="requests">Any special requests</label>
+            <textarea name="request" id="requests" cols="30" rows="10"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
