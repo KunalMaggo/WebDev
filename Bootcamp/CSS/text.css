@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    text-decoration: blue underline wavy;
+    font-size: 100px;
+    font-family: monospace;
+}
+p{
+    text-align: right;
+    font-weight: 700;
+    line-height: 2;
+}
+h2{
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+a{
+    text-decoration: none;
+}
